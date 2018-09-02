@@ -5,7 +5,3 @@ Walk me through your background.
 Why should we hire you for {Web Developer Role}?
 
   When I start work on a project, particularly if it's something experiential and client-facing, I am very driven toward making it as perfect as possible, almost to a fault.  From working in so many different roles and places in the past I'm very adaptable as a teammate and get along with people exceptionally well.  I also understand how fundamentally important this is.  Finally, I'm able to make connections and insights into user experience that someone coming from a more traditional background might not be able to.  
-
-Digital Root:
-
-Sum the digits of a positive integer to form the digital root.  The resulting root should be a single digit.    
