@@ -1,0 +1,2 @@
+# permutations
+# Write a method that takes an array and returns all its permutations. Time/memory complexity should be proportional to the number of permutations; what is this?
