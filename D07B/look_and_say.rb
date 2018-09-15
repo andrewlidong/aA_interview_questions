@@ -16,3 +16,20 @@
 # # array
 # look_and_say([1, 2, 1, 1]) == [[1, 1], [1, 2], [2, 1]]
 # Maintain a current count, maintain a current element. Push both onto new array when a different element is detected.
+
+def look_and_say(array)
+  return [] if array.empty?
+
+  output = [[1, array[0]]]
+
+  (1...array.length).each do |idx|
+    el = array[idx]
+    if el == output.last[1]
+      output.last[0] += 1
+    else
+      output << [1, el]
+    end
+  end
+
+  output
+end

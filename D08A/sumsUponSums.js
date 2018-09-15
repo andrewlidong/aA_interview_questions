@@ -6,3 +6,32 @@
 // B) Solve this problem in O(n) time, O(n) space.
 //
 // C) Solve this problem in O(n) time, O(1) space.
+
+// A) Sort and then go through the numbers looking for a gap.
+function mindTheGap(arr) {
+  const sortedArr = arr.sort();
+
+  // "Gap" number was at start of array
+  if (sortedArr[0] !== 0) return 0;
+
+  for (let i = 0; i < sortedArr.length - 1; i++) {
+    if (arr[i] + 1 !== arr[i+1]) {
+      return arr[i] + 1;
+    }
+  }
+  // 'Gap' number was at end of array
+  return arr.length;
+}
+
+// B) Use an array to keep a count of all numbers
+function mindTheGap2(arr) {
+  const myNums = new Array(arr.length + 1).fill(0);
+  arr.forEach(num => myNums[num]++) {
+    if (myNums[i] === 0) {
+      return i;
+    }
+  }
+}
+
+// C) The expected sum of the first `n` numbers is `(n+1)(n/2)` (prove this.)
+// Sum up all the numbers youself, and subtract the actual from expected values.  This number must be missing
