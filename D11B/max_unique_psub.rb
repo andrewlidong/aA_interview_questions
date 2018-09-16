@@ -40,3 +40,30 @@
 # Given a string str, find the lexicographical greatest psubstring. Solve it first by generating all psubstrings and picking the greatest (in Big-Oh, how many are there?).
 #
 # Next, improve your algorithm to do this in O(n) time.
+
+# O(n^2)
+def max_unique_psub(str)
+  psub = str[str.length -1]
+
+  (str.length - 2).downto(0) do |i|
+    next if str[i] < psub[0]
+    # this takes O(n) in the inner loop to copy the contents of psub to create the new string
+    psub = str[i] + psub
+  end
+
+  psub
+end
+
+# O(n)
+def max_unique_psub(str)
+  psub_arr = [str[str.length - 1]]
+
+  (str.length - 2).downto(0) do |i|
+    next if str[i] < psub_arr.last
+    # this is amortized O(1) time
+    psub_arr << str[i]
+  end
+
+  psub = psub_arr.reverse.join("")
+  psub
+end
