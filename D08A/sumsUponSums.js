@@ -35,3 +35,17 @@ function mindTheGap2(arr) {
 
 // C) The expected sum of the first `n` numbers is `(n+1)(n/2)` (prove this.)
 // Sum up all the numbers youself, and subtract the actual from expected values.  This number must be missing
+
+function mindTheGap3(arr) {
+  let actualSum = 0;
+
+  arr.forEach(num => {
+    actualSum += num;
+  });
+
+  let expectedSum = 0;
+  for (let i = 0; i <= arr.length; i++) {
+    expectedSum += i;
+  }
+  return expectedSum - actualSum;
+}
