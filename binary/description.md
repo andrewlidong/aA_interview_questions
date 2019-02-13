@@ -1,10 +1,9 @@
-# 
+# Binary
 
-Write
+Write a function binary(num) that takes an integer num and returns it in binary form.  
 
 Examples:
 
-```js
-Input: ("bootcamp prep is fun")
-Output: ("btcmp prep is fun")
+```rb
+binary(12) # => 1100
 ```
