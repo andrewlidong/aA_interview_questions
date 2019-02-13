@@ -1,8 +1,8 @@
-# 
+# Compress String
 
 ### High level idea
 
-First,
+
 
 ### Time and space complexity
 
