@@ -1,10 +1,3 @@
-# 
+# Find Common Ancestor
 
-Write
-
-Examples:
-
-```js
-Input: ("bootcamp prep is fun")
-Output: ("btcmp prep is fun")
-```
+Write a function which takes a root and two nodes and finds the lowest common ancestor of those two nodes in a binary search tree defined by the root.  
