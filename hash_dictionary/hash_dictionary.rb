@@ -10,13 +10,13 @@
 #         'd' => {
 #           'e' => true
 #         },
-#
+
 #         'f' => true
 #       }
 #     }
 #   }
 # }
-#
+
 # file_list(files) # => ['a/b/c/d/e', 'a/b/c/f']
 
 def file_list(hash)

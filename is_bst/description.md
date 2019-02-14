@@ -1,6 +1,6 @@
-# 
+# Is Binary Search Tree
 
-Write
+Given a binary tree, write a function to check whether it's a binary search tree or not.   
 
 Examples:
 
