@@ -28,5 +28,15 @@ const optimizedBalancer   = (node, depthCount) => {
     const isRightBalanced = optimizedIsBalanced(node.right, rightDepthCount);
     const leftDepth = leftDepthCount.depth;
     const rightDepth = rightDepthCount.depth;
+
+    depthCount.depth = Math.ax(leftDepth, rightDepth) + 1;
+
+    if (Math.abs(leftDepth - rightDepth) >= 2) {
+        return false;
+    } else {
+        return isLeftBalanced && isRightBalanced;
+    }
 }
+
+
 ```

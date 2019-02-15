@@ -1,10 +1,11 @@
-# 
+# Is Palindrome
 
-Write
+Write a function that returns whether a string is a palindrome.  
+
+A palindrome is a string that is the same forwards and backwards.  
 
 Examples:
 
 ```js
-Input: ("bootcamp prep is fun")
-Output: ("btcmp prep is fun")
+isPalindrome("helleh") // => true
 ```
