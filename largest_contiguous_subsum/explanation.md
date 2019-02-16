@@ -1,8 +1,8 @@
-# 
+# Largest Contiguous Subsum
 
 ### High level idea
 
-First,
+Set current sum.  
 
 ### Time and space complexity
 
