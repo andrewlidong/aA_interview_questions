@@ -1,10 +1,3 @@
-# 
+# Longest Palindrome
 
-Write
-
-Examples:
-
-```js
-Input: ("bootcamp prep is fun")
-Output: ("btcmp prep is fun")
-```
+Write a function that takes a string and returns the indices of the start and end of the longest palindrome it contains.  
