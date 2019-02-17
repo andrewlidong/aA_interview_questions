@@ -36,8 +36,8 @@ function sort2(arr, max) {
   return sortedArr;
 }
 
-function sort3(strings, lng) {
-  for (let i = lng - 1; i >= 0; i--) {
+function sort3(strings, length) {
+  for (let i = length - 1; i >= 0; i--) {
     const buckets = Array(26).fill().map(() => []);
     strings.forEach( str => {
       const letter = str[i];
