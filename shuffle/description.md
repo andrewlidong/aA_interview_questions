@@ -1,10 +1,3 @@
-# 
+# Shuffle
 
-Write
-
-Examples:
-
-```js
-Input: ("bootcamp prep is fun")
-Output: ("btcmp prep is fun")
-```
+Given an array and a random number generator, shuffle the array.  
