@@ -1,19 +1,19 @@
-# 
+# Print Spiral
 
 ### High level idea
 
-First,
+First duplicate the array.  Initialize a results array.  Traverse the array, eliminating elements and pushing them into our results array until the width or the height is 0.  
 
 ### Time and space complexity
 
 Let: <br>
 
-- `n` be <br>
+- `n` be the number of elements in the matrix<br>
 
 Worst cases: <br>
 
-- Time: `O()` <br>
-- Space: `O()`
+- Time: `O(n)` <br>
+- Space: `O(n)`
 
 ### Edge cases missed
 
