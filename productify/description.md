@@ -1,10 +1,9 @@
-# 
+# Productify
 
-Write
+Given a list of numbers in an array, replace all numbers with the product of all the other numbers.  
 
 Examples:
 
 ```js
-Input: ("bootcamp prep is fun")
-Output: ("btcmp prep is fun")
+productify([2,3,6]) // => [18, 12, 6]
 ```
