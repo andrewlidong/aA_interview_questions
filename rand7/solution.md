@@ -1,5 +1,10 @@
-# 
+# Rand 7
 
-```js
-code
+```rb
+def rand7
+    while true
+        num = (rand5) * 6
+        return (num % 6)
+    end
+end
 ```

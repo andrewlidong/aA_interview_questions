@@ -1,19 +1,5 @@
-# 
+# Rand 7
 
 ### High level idea
 
-First,
-
-### Time and space complexity
-
-Let: <br>
-
-- `n` be <br>
-
-Worst cases: <br>
-
-- Time: `O()` <br>
-- Space: `O()`
-
-### Edge cases missed
-
+Keep generating numbers and return only if the number is divisible by 6.  
