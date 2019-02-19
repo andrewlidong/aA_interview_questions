@@ -1,10 +1,3 @@
-# 
+# Subsets
 
-Write
-
-Examples:
-
-```js
-Input: ("bootcamp prep is fun")
-Output: ("btcmp prep is fun")
-```
+Write a function that takes an array and returns all of its subsetes.  How many sets will it return?  

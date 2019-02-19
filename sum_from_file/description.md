@@ -1,10 +1,3 @@
-# 
+# Sum From File
 
-Write
-
-Examples:
-
-```js
-Input: ("bootcamp prep is fun")
-Output: ("btcmp prep is fun")
-```
+Write a method that reads a file of integers and sums them.  Each integer is on a newline and some begin with a #.  
