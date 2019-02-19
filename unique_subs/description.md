@@ -1,10 +1,3 @@
-# 
+# Unique Subs
 
-Write
-
-Examples:
-
-```js
-Input: ("bootcamp prep is fun")
-Output: ("btcmp prep is fun")
-```
+Write a method that finds all unique substrings for a word.  
