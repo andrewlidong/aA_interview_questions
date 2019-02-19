@@ -1,19 +1,5 @@
-# 
+# Stack Queue
 
 ### High level idea
 
-First,
-
-### Time and space complexity
-
-Let: <br>
-
-- `n` be <br>
-
-Worst cases: <br>
-
-- Time: `O()` <br>
-- Space: `O()`
-
-### Edge cases missed
-
+Initialize stack queue with instance variables for in and out.  For enque simply push values to in.  For deque, transfer elements from out to in until in is empty.  Then pop out.  
