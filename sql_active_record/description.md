@@ -1,10 +1,7 @@
-# 
+# SQL Queries
 
-Write
+Write the following queries in SQL and Active Record:
 
-Examples:
-
-```js
-Input: ("bootcamp prep is fun")
-Output: ("btcmp prep is fun")
-```
+Count all users
+Count all active users
+Count all users who've visited the site within a certain time period
