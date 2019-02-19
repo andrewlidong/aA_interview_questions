@@ -2,7 +2,7 @@
 
 ### High level idea
 
-First,
+First, duplicate the array
 
 ### Time and space complexity
 
