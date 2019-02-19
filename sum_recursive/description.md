@@ -1,10 +1,3 @@
-# 
+# Recursive Sum
 
-Write
-
-Examples:
-
-```js
-Input: ("bootcamp prep is fun")
-Output: ("btcmp prep is fun")
-```
+Write a function that takes an array of integers and recursively computes the sum.  
